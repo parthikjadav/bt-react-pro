@@ -1,0 +1,31 @@
+.bg-glass {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.nav-custom-link {
+    color: white !important;
+    /* padding: 15px 5px !important; */
+    position: relative;
+}
+
+.nav-custom-link::before {
+    content: "";
+    position: absolute;
+    width: 0%;
+    border-bottom: 2px solid #2ed254;
+    display: block;
+    bottom: 0;
+    right: 0%;
+    height: 2px;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.nav-custom-link:hover::before {
+    width: 100%;
+    left: 0%;
+}
