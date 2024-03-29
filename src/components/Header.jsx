@@ -5,8 +5,8 @@ const Header = () => {
     return (
         <div>
             <nav class="navbar fixed-top navbar-expand-lg  bg-glass">
-                <div class="container-fluid d-flex align-center">
-                    <a class="navbar-brand fs-1 text-white ms-4" href="#">e'Glass</a>
+                <div class="container d-flex align-center">
+                    <a class="navbar-brand fs-1 text-white" href="#">e'Glass</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>

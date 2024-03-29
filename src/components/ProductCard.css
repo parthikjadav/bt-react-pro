@@ -1,0 +1,17 @@
+.card-custom {
+    background-color: rgb(48, 42, 42);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.custom-css-card {
+    margin-top: 20px;
+    background-color: black !important;
+    border: 2px solid #2ed254;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bg-green {
+    background-color: #2ed254;
+}
